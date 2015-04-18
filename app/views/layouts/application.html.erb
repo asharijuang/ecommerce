@@ -8,7 +8,19 @@
 </head>
 <body class='<%= controller.controller_name %>'>
 
-<%= yield %>
+<div id="column">
+	<div id="side">
+		<ul>
+			<li>Home</li>
+			<li>Question</li>
+			<li>News</li>
+			<li>Contact</li>
+		</ul>
+	</div>
+</div>
 
+<div class="main">
+	<%= yield %>
+</div>
 </body>
 </html>
